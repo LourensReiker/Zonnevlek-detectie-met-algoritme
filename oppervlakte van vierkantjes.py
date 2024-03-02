@@ -14,7 +14,7 @@ img = cv2.imread('zon2.png')
 img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
 
 # Define lower and upper bounds for the color range
-lower = np.array([1, 10, 15])
+lower = np.array([1, 10, 16])
 higher = np.array([223, 250, 250])
 
 # Create a binary mask using inRange
