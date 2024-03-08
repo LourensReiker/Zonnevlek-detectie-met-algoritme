@@ -10,7 +10,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # Load the input image
-img = cv2.imread('zon2.png')
+img = cv2.imread('zon.png')
 img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
 
 # Define lower and upper bounds for the color range
